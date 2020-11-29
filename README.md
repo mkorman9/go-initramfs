@@ -18,7 +18,7 @@ NOTE: Repo comes with a precompiled `Linux 5.4.72-0-lts` kernel. If you'd like t
 ./prepare.sh
 ```
 
-It will create a basic directory structure, copy `init` script, download a binary release of `busybox` and create some devices. Creating devices needs a `sudo` so you'll be asked for your password.
+It will create a basic directory structure, copy `init` script and download a binary release of `busybox`.
 
 ### Build a bootable image
 

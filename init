@@ -1,5 +1,6 @@
 #!/bin/busybox sh
 
+busybox mount -t devtmpfs dev /dev
 busybox mount -t proc none /proc
 busybox mount -t sysfs none /sys
 
