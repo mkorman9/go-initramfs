@@ -5,4 +5,6 @@ busybox mount -t proc none /proc
 busybox mount -t sysfs none /sys
 busybox mount -o remount,ro /
 
-exec /bin/terminal
+busybox ip link set up dev lo
+
+exec /bin/shell

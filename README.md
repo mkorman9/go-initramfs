@@ -18,7 +18,7 @@ NOTE: Repo comes with a precompiled `Linux 5.10.0-rc5` kernel that I've built my
 ./prepare.sh
 ```
 
-It will create a basic directory structure, copy `init` script and download a binary release of `busybox`.
+It will create a basic directory structure and download a binary release of `busybox`. It needs to be executed only once after cloning the repo.
 
 ### Build a bootable image
 
@@ -26,7 +26,7 @@ It will create a basic directory structure, copy `init` script and download a bi
 ./build.sh
 ```
 
-It will build a Go binary, copy it into the created directory structure and then will generate a `cpio` archive.
+It will build a Go binary, copy it into the created directory structure, copy `init` script and then will generate a `cpio` archive.
 
 ### Test in qemu
 
