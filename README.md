@@ -10,7 +10,7 @@ Very minimalistic Linux environment booting into a single statically-linked Go b
 - wget
 - qemu (in order to test an image using `run.sh`)
 
-NOTE: Repo comes with a precompiled `Linux 5.4.72-0-lts` kernel. If you'd like to use a custom one - simply override `vmlinuz` file with your archive.
+NOTE: Repo comes with a precompiled `Linux 5.10.0-rc5` kernel that I've built myself. If you'd like to use a custom one - simply override `vmlinuz` file with your executable.
 
 ### Prepare directory structure
 
